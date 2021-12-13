@@ -15,7 +15,7 @@ key12 = 'atgc'
 key13 = 'atgca'
 keyList = [key10, key11, key12, key13]
 
-#recursive
+#iterative approach to counting substrings
 
 def countSubStringMatchRecursive(target,key):
     str_count = (target).count(key)
